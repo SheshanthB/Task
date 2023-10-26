@@ -1,0 +1,30 @@
+{
+    "Name": {
+        "type": "text",
+        "placeholder": "Full Name",
+        "name": "Name",
+        "value": "name",
+        "id": "Name"
+    },
+    "Employee No": {
+        "type": "number",
+        "placeholder": "Emplyoee Number",
+        "name": "EmplyoeeNo",
+        "value": "emplyoeeNo",
+        "id": "EmplyoeeNo"
+    },
+    "Designation": {
+        "type": "dropdown",
+        "name": "Designation",
+        "value": "designation",
+        "id": "Designation",
+        "option": [
+            "Manger", "Traniee", "Assistant", "Team Lead", "MD", "CEO", "Director"
+        ]
+        
+    },
+    "Submit":{
+        "type": "submit",
+        "id": "Submit"
+    }
+}
